@@ -1,35 +1,106 @@
-<!DOCTYPE html>
+
 <html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato|Open+Sans+Condensed:300" rel="stylesheet"> 
+		<style>
+			
+			div{border: 0px solid black}
+			.header{font-size: 48; margin: 30px; text-align: center; font-family: 'Open Sans Condensed', sans-serif; color: white; background-color: #618685;position: fixed; padding:5px;}
+			.main{float: left; font-family: 'Josefin Sans', sans-serif; background-color: #d5f4e6; color:white}
+			.sub1{margin: 10; float: left;margin-top: 1.5cm;}
+			.sub2{margin: 10; float: left;margin-top: 1.5cm;}
+			.sub3{margin: 10; float: left; }
+			.sub4{margin: 10; float: left}
+			.sub5{margin: 10; float: center;clear:both; color:#618685}
+			
+			#sub1_1{float: left; width: 200px;background-color: #618685; padding:5px;}
+			#sub1_2{float: right; width: 300px;}
+			
+			#sub2_2{float: right; width: 200px;background-color: #618685;padding:5px;}
+			#sub2_1{float: left; width: 300px;}
+			
+			#sub3_1{float: left; width: 200px;background-color: #618685; padding:5px;}
+			#sub3_2{float: right; width: 300px;}
+			
+			#sub4_2{float: right; width: 200px;background-color: #618685;padding:5px;}
+			#sub4_1{float: left; width: 300px;}
+			
+			#sub5_1{float: center; width: 450px;}
+		</style>
+	</head>
+	
+	<body>
+		<div class="main">
+			<div class="header">
+				
+				Tres herramientas de decisi&oacute;n
+			</div>
+			
+			<div class="sub1" id="sub1">
+				<div class="sub1" id="sub1_1">
+					
+				&#191;Qu&#233; puede hacer que un cliente deje nuestra compa&#241;&#237;a?, &#191;Cuales son los mas propensos a hacerlo? &#191;De que popularidad goza nuestra empresa?  Estas son preguntas  muy interesantes para el negocio, pero de dif&#237;cil respuesta. Gracias a las nuevas tecnolog&#237;as podemos plantearnos tres posibles soluciones que ayuden a arrojar un poco de luz sobre nuestra situaci&#243;n. Veamos breve mente como se han planteado cada una de ellas.
+				</div>
+				
+				<div class="sub1" id="sub1_2">
+				<img src="img/duda.svg" height="300" width="300">
+				</div>
+			</div>
+			
+			<div class="sub2" id="sub2">
+				<div class="sub2" id="sub2_2">
+				La segunda herramienta pasa por un planteamiento mas sencillo. &#191;Por que no nos basamos en las conversaciones con nuestros clientes para saber cuales est&#225;n contentos y cuales no? Esto es evidentemente una buena soluci&#243;n pero, hasta la fecha, hac&#237;a falta mucho personal para analizar las conversaciones. Hoy en d&#237;a podemos aprovechar los nuevos algoritmos para detectar en que conversaciones se aprecia un malestar, y saber de este modo que cliente no esta contento con la compa&#241;&#237;a.
+				</div>
+				
+				<div class="sub2" id="sub2_1">
+				<img src="img/operador.svg" height="300" width="300">
+				</div>
+			</div>
+			
+			<div class="sub3" id="sub3">
+				<div class="sub3" id="sub3_1">
+				La primera aproximaci&#243;n consiste en basarnos en las caracter&#237;sticas de nuestros clientes para detectar cuales ser&#225;n mas  propicios a dejarnos. Esto se hace mediante algoritmos que detectan patrones comparando clientes que han dejado la compa&#241;&#237;a y clientes que no la han dejado. De este modo podremos focalizar esfuerzos y tratar de mejorar nuestros servicios all&#237; donde seguramente est&#233;n fallando.	
+				</div>
+				
+				<div class="sub3" id="sub3_2">
+				<img src="img/clientes.svg" height="300" width="300">
+				</div>
+			</div>
+			
+			<div class="sub4" id="sub4">
+				<div class="sub4" id="sub4_2">
+				La ultima herramienta nos ayudar&#225; a conocer la opini&#243;n publica de que goza nuestra empresa. Gracias a twitter podemos saber que es lo que la gente dice de nosotros. Podemos ver si la gente tiene una buena opini&#243;n de nosotros y compararlo con la competencia, detectando as&#237; cuando es mas probable que un cliente se plantee dejar la compa&#241;&#237;a. Tambi&#233;n podemos detectar cuales son los t&#243;picos mas comunes para saber as&#237; que es lo que a la gente le preocupa.
+				</div>
+				
+				<div class="sub4" id="sub4_1">
+				<img src="img/tierra.svg" height="300" width="300">
+				</div>
+			</div>
+			
+			<div class="sub5" id="sub5">
+			Autor:
+			<a href="https://github.com/AlvaroSanchez91" color=#618685 >
+			 &#193;lvaro S&#225;nchez Casta&#241;eda. <br>
+			</a>
+			Con la colaboraci&#243;n de:
+				<div class="sub5" id="sub5_1">
+					<a href="https://twitter.com/">
+					<img src="img/twitter.png" height="100" width="100" >
+					</a>
+					<a href="https://www.r-project.org/">
+					<img src="img/R.png"height="100" width="100" href="https://www.r-project.org/">
+					</a>
+					<a href="http://www.admiral.com/">
+					<img src="img/admiral.png"height="100" width="100" href="http://www.admiral.com/">
+					</a>
+					<a href="https://www.nodebox.net/">
+					<img src="img/nodebox.png"height="100" width="100" href="https://www.nodebox.net/">
+					</a>
+				</div>
+			</div>
 
-<body background="images\estrellas9.jpg">
-
-<h1 style="color:white; text-align:center;">Avistamientos O.V.N.I. en Espa&ntilde;a y Peninsula.</h1>
-<p style="color:white; text-align:center;">Datos obtenidos de la plataforma Kaggle, posteriormente se ha tomado un subconjunto en funcion de sus coordenadas.</p>
-
-
-<p style="color:white; text-align:center;">Datos de Kaggle:</p>
-<a href="https://www.kaggle.com/NUFORC/ufo-sightings"><p style="color:white; text-align:center;"> https://www.kaggle.com/NUFORC/ufo-sightings </p></a>
-
-<p style="color:white; text-align:center;">Subconjunto de avistamientos documentados en Espa&ntilde;a y Portugal:</p>
-<a href="https://github.com/AlvaroSanchez91/AlvaroSanchez91.github.io/blob/master/ovni.csv"><p style="color:white; text-align:center;"> https://github.com/AlvaroSanchez91/AlvaroSanchez91.github.io/blob/master/ovni.csv </p></a>
-
-<p style="color:white; text-align:center;">La base de datos cuenta con 11 variables en las que se documentan:la fecha con hora (datetime), la ciudad (city), el tipo de avistamiento (shape), la duraci&oacute;n del avistamiento en segundos(duration(seconds)), la duraci&oacute;n del avistamiento en horas (duration(hours/min)), los comentarios del avistamiento (comments), la fecha sin hora (dateposted), la latitud (latitude) y la longitud (longitude). Tambi&eacute;n se incluyen dos variables state y country, pero no contienen informaci&oacute;n (si contienen informaci&oacute;n en la tabla de datos original).</p>
-
-<p style="color:white; text-align:center;">Por ejemplo, en el numero 7 de la tabla tenemos un avistamiento en El Escorial de 1968. Dicho avistamiento tuvo una duraci&oacute;n de dos horas, se incluyen los comentarios: "Cigar shaped object steals 2 hours of two children&#39s time".</p>
-
-<h2 style="color:white; text-align:center;">Mapa de Espa&ntilde;a con avistamientos.</h2>
-<center>
-<img src="images\ovnis_google.jpg" alt="map" width="635" height="494">
-</center>
-
-<p style="color:white; text-align:center;">Se observan una gran cantidad de avistamientos entorno a Lisboa y en la costa sur de Espa&ntilde;a.</p>
-
-<h2 style="color:white; text-align:center;">Avistamientos por a&ntilde;o.</h2>
-<center>
-<img src="images\histograma_ovnis2.jpeg" alt="map" width="635" height="395">
-</center>
-
-<p style="color:white; text-align:center;">Se observa un crecimiento considerable del numero de avistamientos. Ademas, tenemos un intervalo entorno al 2003 en el que hay muhcos mas avistamientos que en el resto de intervalos. Tal vez no haya realcci&oacute;n alguna, pero Milenio 3 (que posteriormente dio lugar a Cuarto milenio) comienza a emitirse en julio de 2002.</p>
-
-</body>
+		</div>
+	</body>
 </html>
