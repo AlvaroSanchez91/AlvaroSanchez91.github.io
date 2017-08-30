@@ -6,32 +6,35 @@
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato|Open+Sans+Condensed:300" rel="stylesheet"> 
 		<style>
 			
+			
 			div{border: 0px solid black}
-			.header{font-size: 48; margin: 30px; text-align: center; font-family: 'Open Sans Condensed', sans-serif; color: white; background-color: #618685;position: fixed; padding:5px;}
-			.main{float: left; font-family: 'Josefin Sans', sans-serif; background-color: #d5f4e6; color:white}
-			.sub1{margin: 10; float: left;margin-top: 1.5cm;}
-			.sub2{margin: 10; float: left;margin-top: 1.5cm;}
-			.sub3{margin: 10; float: left; }
-			.sub4{margin: 10; float: left}
-			.sub5{margin: 10; float: center;clear:both; color:#618685}
+			.header{border-top:1px solid black; font-size: 48; margin: 30px; text-align: center; font-family: 'Open Sans Condensed', sans-serif; color: white; background-color: #618685;position: fixed; padding:5px;}
+			.main{text-align:left;display: inline-block; font-family: 'Josefin Sans', sans-serif; background-color: #d5f4e6; color:white; font-size:18px}
+			.sub1{margin: 10; float: center;margin-top: 1.5cm;}
+			.sub2{margin: 10; float: center;margin-top: 0cm;clear:both;}
+			.sub3{margin: 10; float: center; clear:both;}
+			.sub4{margin: 10; float: center;clear:both;}
+			.sub5{margin: 10; float: center;clear:both; color:#618685;}
 			
-			#sub1_1{float: left; width: 200px;background-color: #618685; padding:5px;}
-			#sub1_2{float: right; width: 300px;}
+			#sub1_1{border-top:1px solid black;float: left; width: 200px;background-color: #618685; padding:5px;clear:right}
+			#sub1_2{float: right; width: 300px;clear:right}
 			
-			#sub2_2{float: right; width: 200px;background-color: #618685;padding:5px;}
-			#sub2_1{float: left; width: 300px;}
+			#sub2_2{border-top:1px solid black;float: right; width: 200px;background-color: #618685;padding:5px;}
+			#sub2_1{float: left; width: 300px;clear:left}
 			
-			#sub3_1{float: left; width: 200px;background-color: #618685; padding:5px;}
-			#sub3_2{float: right; width: 300px;}
+			#sub3_1{border-top:1px solid black;float: left; width: 200px;background-color: #618685; padding:5px;}
+			#sub3_2{float: right; width: 300px;clear:right;margin-top: 1.5cm;}
 			
-			#sub4_2{float: right; width: 200px;background-color: #618685;padding:5px;}
-			#sub4_1{float: left; width: 300px;}
+			#sub4_2{border-top:1px solid black;float: right; width: 200px;background-color: #618685;padding:5px;}
+			#sub4_1{float: left; width: 300px;clear:left;margin-top: 1.5cm;}
 			
 			#sub5_1{float: center; width: 450px;}
 		</style>
 	</head>
 	
+	<center>
 	<body>
+		
 		<div class="main">
 			<div class="header">
 				
@@ -51,21 +54,26 @@
 			
 			<div class="sub2" id="sub2">
 				<div class="sub2" id="sub2_2">
-				La segunda herramienta pasa por un planteamiento mas sencillo. &#191;Por que no nos basamos en las conversaciones con nuestros clientes para saber cuales est&#225;n contentos y cuales no? Esto es evidentemente una buena soluci&#243;n pero, hasta la fecha, hac&#237;a falta mucho personal para analizar las conversaciones. Hoy en d&#237;a podemos aprovechar los nuevos algoritmos para detectar en que conversaciones se aprecia un malestar, y saber de este modo que cliente no esta contento con la compa&#241;&#237;a.
+				La primera aproximaci&#243;n consiste en basarnos en las caracter&#237;sticas de nuestros clientes para detectar cuales ser&#225;n mas  propicios a dejarnos. Esto se hace mediante algoritmos que detectan patrones comparando clientes que han dejado la compa&#241;&#237;a y clientes que no la han dejado. De este modo podremos focalizar esfuerzos y tratar de mejorar nuestros servicios all&#237; donde seguramente est&#233;n fallando.	
+				
 				</div>
 				
 				<div class="sub2" id="sub2_1">
-				<img src="img/operador.svg" height="300" width="300">
+				<img src="img/clientes.svg" height="300" width="300">
 				</div>
 			</div>
 			
 			<div class="sub3" id="sub3">
 				<div class="sub3" id="sub3_1">
-				La primera aproximaci&#243;n consiste en basarnos en las caracter&#237;sticas de nuestros clientes para detectar cuales ser&#225;n mas  propicios a dejarnos. Esto se hace mediante algoritmos que detectan patrones comparando clientes que han dejado la compa&#241;&#237;a y clientes que no la han dejado. De este modo podremos focalizar esfuerzos y tratar de mejorar nuestros servicios all&#237; donde seguramente est&#233;n fallando.	
+				
+				La segunda herramienta pasa por un planteamiento mas sencillo. &#191;Por que no nos basamos en las conversaciones con nuestros clientes para saber cuales est&#225;n contentos y cuales no? Esto es evidentemente una buena soluci&#243;n pero, hasta la fecha, hac&#237;a falta mucho personal para analizar las conversaciones. Hoy en d&#237;a podemos aprovechar los nuevos algoritmos para detectar en que conversaciones se aprecia un malestar, y saber de este modo que cliente no esta contento con la compa&#241;&#237;a.
+				
+				
 				</div>
 				
 				<div class="sub3" id="sub3_2">
-				<img src="img/clientes.svg" height="300" width="300">
+				
+				<img src="img/operador.svg" height="300" width="300">
 				</div>
 			</div>
 			
@@ -102,5 +110,7 @@
 			</div>
 
 		</div>
+		
 	</body>
+	</center>
 </html>
